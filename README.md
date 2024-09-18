@@ -1,82 +1,59 @@
-# <h1>CHATBOT  For Railway Ticket Reservation  
+<h1>CHATBOT For Museum Ticket Booking  
  <img src='Images/0.jpg' width=100 height=70></h1>
 
-<h4> a CHAT BOT Built  From Scratch </h4>
+<h4>A CHAT BOT Built From Scratch</h4>
 
- > Interactive Railway Reservation -  Building a ChatBot for a railway reservation system. The Bot   maintains a conversation with the user regarding the booking of ticket, source and destination, general FAQs etc.
+> Interactive Museum Reservation – Building a ChatBot for a museum ticket booking system. The bot maintains a conversation with the user regarding ticket booking, event reservations, general FAQs, etc.
 
- >SPECIAL FEATURES INCLUDED FOR THIS BOT ARE:
+> SPECIAL FEATURES INCLUDED FOR THIS BOT ARE:
 
-  *  SPEECH RECOGNITION
-  *  CUSTOMIZED THRESHOLD FOR THE MODEL. 
-  *  SENTIMENT ANALYSIS .
+  * SPEECH RECOGNITION
+  * CUSTOMIZED THRESHOLD FOR RESPONSE ACCURACY
+  * SENTIMENT ANALYSIS
 
-
-
-  <h2> BackGround and Signifcance of ChatBots in Railway Ticket Reservation System</h2>
+<h2>Background and Significance of ChatBots in Museum Ticketing Systems</h2>
 
 <hr />
 
-* Chatbots are creeping slowly into even the most boring of business interactions. They already started to rule over the low stakes mass market, over simplifying your everyday tasks. From ordering food or query your laptop service to even your credit card queries. 
+* Chatbots are gradually becoming a part of various industries, simplifying everyday tasks and improving customer service. From ordering tickets to answering frequently asked questions, chatbots can make interactions more efficient.
 
-* A chatbot is an artificial intelligence (AI) software that can simulate a conversation (or a chat) with a user in natural language  through messaging applications, websites, mobile apps or through the telephone.
+* A chatbot is an artificial intelligence (AI) software that can simulate a conversation with users in natural language through messaging applications, websites, mobile apps, or through the telephone.
 
-<img src='Images/different.png'>
+<img src='Images/museum_tickets.png'>
 
-*  Railway services are available in most of the countries in the world. However, the demand for fast, reliable, and passenger friendly services is always being felt. With the ever increasing passenger and freight loads, more efficient mechanisms are needed to handle this increasing demand. And this would not be of only man-power but of smart technologies which when induced within the system, would produce a smarter railway system throughout.
+* Museums, particularly during busy times like weekends or special exhibitions, face challenges in managing large crowds and offering a seamless ticket booking experience. Manual ticketing systems can result in long queues and delays, which negatively impact visitor satisfaction.
 
-*  Indian Railway, the largest employer in India and one of the slowest service providers in terms of train inquiries and ticket booking, may choose the chatbot route for faster response.The inclusion of AI technology via chatbot in customer service is the need of the hour and the world of smartphones and smart devices can help the country to adopt it quickly.Not only for Indian Railways ,many countries need to adapt AI to maintain a good user engagement system.
+* Introducing AI-powered chatbots into the museum system ensures faster ticketing, fewer errors, and an overall improved visitor experience. Not just for large museums, but institutions across the globe can benefit from AI adoption to enhance customer engagement and streamline operations.
 
 <hr /> 
 
-<h2>  Implementation Framework  </h2>
+<h2>Implementation Framework</h2>
  
- <p><b> SOFTWARE REQUIREMENTS </b></p>
+<p><b>SOFTWARE REQUIREMENTS</b></p>
 
- *  Tensflow Frame Work, NLTK Library.
+ * TensorFlow Framework, NLTK Library.
 
- <h2> Solution Approach </h2>
+<h2>Solution Approach</h2>
 
 <img src='Images/Flow.png'>
 
-
-
-* <b>Overview:​</b> Using NLP to train the model , Speech Recognition for output.
-My Approach has ​ sentiment analysis ​ which is used to improve the performance of chatbot by
-analysing customer Experience.
+* <b>Overview:</b> Using NLP to train the model, Speech Recognition for voice-based interaction. Sentiment analysis is applied to improve the chatbot's performance by analyzing user feedback and enhancing the experience.
 
 <img src='Images/architecture.png'>
 
->Chatbot’s main function is called to take response from user , sent to model ,matched intents and patterns and returned the expected response to user.
+> The chatbot’s main function is to take input from users, process it through the model, match it with predefined intents and patterns, and return the appropriate response.
 
 <img src='Images/main.jpg'>
 
-* If user selected to speak then, Speech to text
-function activated , text is sent to bot.​ ​ From the conversation of user with bot ,​ Punkt​ Sentence
-Tokenizer divides a text into a list of sentences, by using an unsupervised algorithm to build a
-model for abbreviated words, collocations, and words that start sentences. ​ Stemming and
-Lemmatization is used to generate the root form of inflected words. In this Approach I have
-just used basic libraries for the framework and lemmatization,intents and pattern matching is
-done from scratch .
+* If the user chooses voice input, the speech-to-text function is activated, and the text is processed by the bot. Using the conversation, the Punkt Sentence Tokenizer divides text into sentences, and techniques like stemming and lemmatization generate the root form of words. This approach relies on basic NLP libraries, and intents are matched from scratch.
 
+* After tokenization, words, classes, and documents are created, filtering out unnecessary symbols like question marks. The useful data is added to the corpus, and classes are generated. Duplicate words are removed, and intent classification helps in efficient query handling.
 
-* After tokenization ,I Created words, classes and documents added each word to a list ,and
-neglected question marks,exclamation symbols as they are not necessary and useful data is
-added to documents in our corpus and classes added to our classes list. From the list words
-applied stemming and also removed duplicate words. Classifying the ​ intents ​ for efficient query
-handling.
+> Features are shuffled and converted to np.array. The neural network is built using the TENSORFLOW FRAMEWORK and trained using the Gradient Descent Algorithm.
 
-> Shuffle features and turned into np.array,Building Neural network using TENSORFLOW
-FRAMEWORK and Training the Model using ​ Gradient Descent Algorithm.
+* After training, a JSON file containing intents and responses is imported into the model. A data structure holds the user query, generates probability, and predicts the intent with relevant responses using techniques like TF-IDF and cosine similarity.
 
+* User feedback is collected, and sentiment analysis is conducted to further improve the chatbot’s performance and ensure better user satisfaction.
 
-* After Training the model ,imported json file consisting of intents and responses to model, created
-a data structure to hold the user query ,generated ​ probability a ​ nd predictions below threshold to
-return tuple of intents and probabilities. (Includes scratch implementation of TF-IDF and cosine
-Similarity).
-
-
-* FeedBack from The user is taken and Sentiment Analysis is done to improve the Performance of The Chatbot.
-
-<h2> Thank You :D </h2>
-<p><i>I have used many online resources while creating the application and I would like to thank them</i> . &nbsp; Hope you found it insightful.If you have any queries you can mail me at : <b> kumartharun435@gmail.com </b>. I would love to hear feedback from you to improvise it and make it better! </p>
+<h2>Thank You :D</h2>
+<p><i>I have used many online resources while creating this application, and I would like to thank them.</i> &nbsp; Hope you found this insightful. If you have any queries, you can reach me at: <b>your_email@example.com</b>. I would love to hear your feedback to improve it further!</p>
