@@ -63,6 +63,8 @@
 
 <h2>Solution Approach</h2>
 
+<img src='diagram.png'>
+
 <p><b>Overview:</b> The museum chatbot uses Natural Language Processing (NLP) to understand and respond to visitor queries. It helps users with event details, ticket bookings, tour schedules, and answers to common FAQs. The chatbot ensures efficient, real-time interactions, offering a seamless experience for museum visitors. It is also integrated with payment systems for easy ticket purchasing.</p>
 
 <p>The approach revolves around using <b>AI and machine learning</b> for understanding visitor intents, and providing customized responses depending on user input. NLP techniques are utilized for language understanding, and visitor feedback is analyzed to improve response accuracy over time.</p>
