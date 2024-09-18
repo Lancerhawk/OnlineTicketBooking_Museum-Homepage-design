@@ -1,5 +1,5 @@
 <h1>CHATBOT For Museum Ticket Booking  
- <img src='Images/0.jpg' width=100 height=70></h1>
+<!--  <img src='Images/0.jpg' width=100 height=70></h1> -->
 
 <h4>A CHAT BOT Built From Scratch</h4>
 
@@ -21,8 +21,6 @@
 * Chatbots are becoming an integral part of the customer experience across many industries, simplifying interactions and making routine processes more efficient. From booking tickets to providing detailed information about upcoming events, a chatbot can greatly improve the visitor experience.
 
 * A chatbot is an artificial intelligence (AI) software that simulates conversations with users in natural language through messaging applications, websites, or mobile apps, providing real-time assistance and personalized services.
-
-<img src='Images/museum_tickets.png'>
 
 * Museums often experience high traffic during weekends, holidays, and special events. Manual ticketing systems can result in delays, errors, and a subpar visitor experience. Introducing AI-powered chatbots can streamline ticket booking, offer multilingual support, and ensure efficient management of event information and tour schedules.
 
@@ -92,9 +90,7 @@
 
 <h3>Diagram and Visual Representation</h3>
 
-<p>To visualize the flow of the chatbot's interaction, a mind map or system architecture diagram can be used. These visuals illustrate the various user interactions (e.g., booking tickets, checking event details) and how the chatbot processes and responds to each query.</p>
-
-<p>For a better understanding of the process, you can refer to [Google Image results for mind maps or chatbot architecture diagrams](https://www.google.com/search?q=chatbot+architecture+diagram&tbm=isch) to help structure the visual presentation of the system. You could include flowcharts showing the interaction from user input to the final output, detailing how the chatbot interprets intents and fetches relevant data from the back-end.</p>
+<p>To visualize the flow of the chatbot's interaction, refer to this <a href="https://www.researchgate.net/publication/341730184/figure/fig3/AS:898262563315714@1591173892479/General-chatbot-architecture.ppm">General Chatbot Architecture Diagram</a>.</p>
 
 <h3>Benefits of this Approach:</h3>
 <ul>
@@ -104,9 +100,3 @@
   <li><b>Tour scheduling:</b> Users can easily book museum tours, ensuring they get timely information and reservation details.</li>
   <li><b>Improved visitor engagement:</b> Personalized recommendations and feedback collection help tailor the visitor experience, increasing satisfaction and engagement.</li>
 </ul>
-
-
-
-
-<h2>Thank You :D</h2>
-<p><i>I have used many online resources while creating this application and I would like to thank them.</i> &nbsp; Hope you found this insightful. If you have any queries, you can reach me at: <b>your_email@example.com</b>. I would love to hear your feedback to improve it further!</p>
