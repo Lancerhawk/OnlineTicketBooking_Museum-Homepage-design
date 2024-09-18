@@ -89,8 +89,7 @@
 <p><b>Visitor Feedback:</b> User feedback is collected after ticket booking or attending an event. This data is analyzed using sentiment analysis techniques to enhance future interactions and improve the chatbot’s performance over time.</p>
 
 <h3>Diagram and Visual Representation</h3>
-
-<p>To visualize the flow of the chatbot's interaction, refer to this <a href="https://www.researchgate.net/publication/341730184/figure/fig3/AS:898262563315714@1591173892479/General-chatbot-architecture.ppm">General Chatbot Architecture Diagram</a>.</p>
+<img src="https://www.researchgate.net/publication/341730184/figure/fig3/AS:898262563315714@1591173892479/General-chatbot-architecture.ppm">
 
 <h3>Benefits of this Approach:</h3>
 <ul>
