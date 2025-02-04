@@ -1,0 +1,74 @@
+:root {
+  --main-bg-color: #3b2e25;
+  --secondary-bg-color: #4e3f30; 
+  --accent-color: #a67b5b;
+  --text-color: #e6e3dc; 
+  --button-bg-color: #775c49; 
+  --button-hover-bg: #9e7e64; 
+  --shadow-color: rgba(0, 0, 0, 0.5);
+}
+
+body {
+  font-family: "Poppins", system-ui;
+  background-color: var(--main-bg-color); 
+  color: var(--text-color);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  line-height: 1.6;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+
+  
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Merriweather', serif; 
+}
+
+
+
+
+
+a {
+  color: var(--accent-color);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--button-hover-bg);
+}
+
+button {
+  background-color: var(--button-bg-color);
+  color: var(--text-color);
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: var(--button-hover-bg);
+}
+
+.container {
+  padding: 20px;
+  background-color: var(--secondary-bg-color);
+  box-shadow: 0 4px 8px var(--shadow-color);
+  border-radius: 10px;
+  max-width: 1200px;
+  margin: 20px auto;
+}
+
+body {
+  background-color: var(--main-bg-color);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: var(--text-color);
+}
+
